@@ -9,10 +9,26 @@ import java.util.List;
 
 @Service
 public class UserService {
+
     @Autowired
     UserMapper userMapper;
-
     public List<User> findAll(){
         return userMapper.findAll();
+    }
+
+    public User findById(Long id){
+        return userMapper.findById(id);
+    }
+
+    public void insert(User user){
+        userMapper.insert(user);
+    }
+
+    public void update(Long id, User user){
+        userMapper.update(id, user);
+    }
+
+    public void delete(Long id){
+        userMapper.delete(id);
     }
 }

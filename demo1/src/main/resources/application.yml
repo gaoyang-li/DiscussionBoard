@@ -7,7 +7,11 @@ spring:
     username: root
     password: root
 mybatis:
-    mapper-locations: classpath:mapping/*Mapper.xml
+    mapper-locations: classpath:mapper/*Mapper.xml
     type-aliases-package: com.example.demo.entity
+#    type-handlers-package: com.example.mybatis.typehandler
     configuration:
       map-underscore-to-camel-case: true
+#      typeHandlers:
+#        - type: java.time.LocalDateTime
+#          handler: org.apache.ibatis.type.LocalDateTimeTypeHandler

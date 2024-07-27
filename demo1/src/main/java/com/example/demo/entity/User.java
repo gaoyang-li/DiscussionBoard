@@ -1,5 +1,6 @@
 package com.example.demo.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -17,10 +18,10 @@ public class User implements Serializable {
 
     private String remark;
 
-    //@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+//    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime createTime;
 
-    //@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+//    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime updateTime;
 
 }

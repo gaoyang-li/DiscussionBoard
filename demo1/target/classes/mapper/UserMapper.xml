@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.UserMapper">
+
+    <select id="findAll" parameterType="com.example.demo.entity.User" resultType="com.example.demo.entity.User">
+        SELECT name, email, remark, create_time, update_time
+        FROM user
+    </select>
+
+    <select id="findById" parameterType="Long" resultType="com.example.demo.entity.User">
+        SELECT name, email, remark, create_time, update_time
+        FROM user
+        WHERE id=#{id}
+    </select>
+
+    <insert id="insert" parameterType="com.example.demo.entity.User">
+        INSERT INTO user (name, email, remark, create_time, update_time)
+        VALUES (#{name}, #{email}, #{remark}, NOW(), #{updateTime})
+    </insert>
+
+    <update id="update" parameterType="com.example.demo.entity.User">
+        UPDATE user
+        SET name=#{user.name}, email=#{user.email}, remark=#{user.remark}, update_time=NOW()
+        WHERE id=#{id}
+    </update>
+
+    <delete id="delete" parameterType="Long">
+        DELETE FROM user
+        WHERE id=#{id}
+    </delete>
+
+</mapper>
