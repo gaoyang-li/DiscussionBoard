@@ -1,5 +1,6 @@
 com\example\demo\controller\HelloController.class
 com\example\demo\entity\User.class
+com\example\demo\aop\ControllerLogAspect.class
 com\example\demo\service\UserService.class
 com\example\demo\controller\UserController.class
 com\example\demo\mapper\UserMapper.class
