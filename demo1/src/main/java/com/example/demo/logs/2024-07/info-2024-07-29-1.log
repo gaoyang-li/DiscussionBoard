@@ -1,0 +1,145 @@
+[00:42:38:090] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 8856 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[00:42:38:102] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[00:42:39:344] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[00:42:39:358] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[00:42:39:359] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[00:42:39:360] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[00:42:39:478] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[00:42:39:479] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 1312 ms
+[00:42:40:278] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[00:42:40:534] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[00:42:40:561] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[00:42:40:578] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 3.317 seconds (JVM running for 6.352)
+[00:42:53:079] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 12092 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[00:42:53:087] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[00:42:53:740] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[00:42:53:751] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[00:42:53:752] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[00:42:53:752] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[00:42:53:841] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[00:42:53:841] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 716 ms
+[00:42:54:175] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[00:42:54:287] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[00:42:54:301] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[00:42:54:309] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.775 seconds (JVM running for 3.498)
+[00:45:58:025] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[00:45:58:025] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[00:45:58:025] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[00:45:58:169] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[00:45:58:310] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[00:47:16:783] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[00:47:16:795] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[00:47:24:441] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 24308 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[00:47:24:452] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[00:47:25:223] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[00:47:25:237] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[00:47:25:238] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[00:47:25:238] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[00:47:25:359] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[00:47:25:360] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 864 ms
+[00:47:25:802] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[00:47:25:963] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[00:47:25:982] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[00:47:25:991] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 2.074 seconds (JVM running for 3.71)
+[00:48:10:013] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[00:48:10:014] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[00:48:10:016] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 2 ms
+[00:48:10:111] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[00:48:10:223] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[00:59:22:579] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[00:59:22:603] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[00:59:30:181] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 4968 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[00:59:30:189] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[00:59:30:849] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[00:59:30:860] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[00:59:30:860] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[00:59:30:860] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[00:59:30:952] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[00:59:30:952] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 726 ms
+[00:59:31:284] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[00:59:31:385] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[00:59:31:399] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[00:59:31:408] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.783 seconds (JVM running for 3.36)
+[01:01:40:626] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[01:01:40:626] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[01:01:40:627] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[01:01:40:775] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[01:01:40:935] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[01:04:05:654] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[01:04:05:666] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[01:04:13:094] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 11676 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[01:04:13:102] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[01:04:13:773] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[01:04:13:784] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[01:04:13:784] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[01:04:13:784] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[01:04:13:871] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[01:04:13:872] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 729 ms
+[01:04:14:195] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[01:04:14:301] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[01:04:14:315] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[01:04:14:322] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.803 seconds (JVM running for 3.343)
+[01:05:50:178] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[01:05:50:179] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[01:05:50:182] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 2 ms
+[01:05:50:371] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[01:05:50:506] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[01:06:39:805] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[01:06:39:817] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[01:06:47:310] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 11748 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[01:06:47:318] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[01:06:47:997] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[01:06:48:009] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[01:06:48:009] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[01:06:48:010] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[01:06:48:098] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[01:06:48:099] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 737 ms
+[01:06:48:445] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[01:06:48:568] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[01:06:48:581] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[01:06:48:589] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.795 seconds (JVM running for 3.457)
+[01:07:53:283] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[01:07:53:283] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[01:07:53:284] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[01:07:53:369] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[01:07:53:485] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[01:08:31:127] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[01:08:31:138] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[01:08:38:511] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 11420 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[01:08:38:518] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[01:08:39:166] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[01:08:39:175] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[01:08:39:176] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[01:08:39:176] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[01:08:39:271] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[01:08:39:272] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 721 ms
+[01:08:39:599] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[01:08:39:706] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[01:08:39:720] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[01:08:39:728] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.759 seconds (JVM running for 3.409)
+[01:09:05:454] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[01:09:05:455] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[01:09:05:456] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[01:09:05:542] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[01:09:05:653] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[01:10:16:888] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[01:10:16:898] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[01:10:24:055] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 14932 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[01:10:24:065] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[01:10:24:711] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[01:10:24:721] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[01:10:24:722] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[01:10:24:722] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[01:10:24:817] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[01:10:24:817] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 715 ms
+[01:10:25:147] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[01:10:25:255] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[01:10:25:268] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[01:10:25:275] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.731 seconds (JVM running for 3.377)
+[01:10:34:762] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[01:10:34:763] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[01:10:34:763] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[01:10:34:867] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[01:10:34:995] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[01:10:59:997] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[01:11:00:007] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
