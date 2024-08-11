@@ -1,2 +1,298 @@
-[00:32:50:207] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
-[00:32:50:220] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[14:44:13:731] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 23836 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[14:44:13:749] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[14:44:14:793] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[14:44:14:805] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[14:44:14:806] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[14:44:14:806] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[14:44:15:016] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[14:44:15:017] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 1213 ms
+[14:44:15:518] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[14:44:15:722] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[14:44:15:748] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[14:44:15:757] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 2.658 seconds (JVM running for 5.128)
+[14:44:32:717] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:44:32:718] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[14:44:32:720] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 2 ms
+[14:45:18:174] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[14:45:18:175] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[14:45:18:176] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[14:45:18:176] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[14:45:18:177] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[14:45:18:223] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[14:45:18:469] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[14:45:54:154] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[14:45:54:154] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[14:45:54:154] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[14:45:54:155] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[14:45:54:155] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[14:58:42:138] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[14:58:42:163] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[14:58:55:308] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 12916 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[14:58:55:315] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[14:58:56:146] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[14:58:56:158] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[14:58:56:159] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[14:58:56:159] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[14:58:56:262] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[14:58:56:263] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 910 ms
+[14:58:56:657] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[14:58:56:787] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[14:58:56:804] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[14:58:56:813] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 2.025 seconds (JVM running for 3.662)
+[15:01:12:775] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:01:12:776] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:01:12:778] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[15:01:12:802] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[15:01:12:802] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:01:12:802] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[15:01:12:802] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[15:01:12:802] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:01:12:831] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[15:01:13:039] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[15:01:55:905] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[15:01:55:905] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:01:55:905] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[15:01:55:905] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[15:01:55:905] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:04:45:462] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[15:04:45:473] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[15:04:53:024] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 26792 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[15:04:53:030] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[15:04:53:729] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[15:04:53:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[15:04:53:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:04:53:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[15:04:53:829] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:04:53:830] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 769 ms
+[15:04:54:171] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[15:04:54:284] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[15:04:54:302] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[15:04:54:310] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.771 seconds (JVM running for 3.356)
+[15:07:15:873] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:07:15:873] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:07:15:873] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[15:07:15:904] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[15:07:15:904] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:07:15:904] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[15:07:15:904] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[15:07:15:904] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:07:15:936] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[15:07:16:062] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[15:09:45:299] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[15:09:45:310] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[15:09:53:182] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 21108 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[15:09:53:190] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[15:09:53:884] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[15:09:53:893] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[15:09:53:894] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:09:53:894] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[15:09:53:998] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:09:53:998] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 779 ms
+[15:09:54:344] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[15:09:54:450] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[15:09:54:464] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[15:09:54:472] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.785 seconds (JVM running for 3.298)
+[15:10:52:000] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:10:52:000] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:10:52:000] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[15:10:59:894] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[15:10:59:894] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:10:59:894] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[15:10:59:894] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[15:10:59:894] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:10:59:910] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[15:11:00:036] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[15:11:03:439] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/1
+[15:11:03:439] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:11:03:439] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findById
+[15:11:03:439] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: 1
+[15:11:03:439] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:11:06:212] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[15:11:06:212] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:11:06:212] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[15:11:06:212] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[15:11:06:212] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:11:18:395] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[15:11:18:395] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:11:18:395] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[15:11:18:395] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[15:11:18:395] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:13:58:562] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[15:13:58:562] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:13:58:562] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[15:13:58:562] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[15:13:58:562] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:13:58:562] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1f78a493 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:13:58:578] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@cf14070 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:13:58:578] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6f6e20e3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:13:58:578] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4eed8f85 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:13:58:578] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@71600982 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:13:58:594] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7714351e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:13:58:594] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@69e37a27 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:13:58:594] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b504139 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:13:58:594] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3a0d7dc8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:13:58:594] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6ce70352 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:19:14:689] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[15:19:14:697] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[15:19:25:998] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 6444 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[15:19:26:007] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[15:19:26:697] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[15:19:26:707] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[15:19:26:707] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:19:26:708] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[15:19:26:792] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:19:26:792] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 742 ms
+[15:19:27:116] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[15:19:27:224] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[15:19:27:238] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[15:19:27:246] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.788 seconds (JVM running for 3.25)
+[15:19:46:198] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:19:46:198] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:19:46:199] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[15:19:46:209] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[15:19:46:209] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:19:46:209] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[15:19:46:209] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[15:19:46:209] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:19:46:225] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[15:19:46:348] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[15:21:05:761] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/2
+[15:21:05:761] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:21:05:761] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findById
+[15:21:05:761] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: 2
+[15:21:05:761] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:21:05:776] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4c35a919 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:21:05:776] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@88e5cb1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:21:05:776] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@699251d8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:21:05:776] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4570164e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:21:05:792] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@10045f5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:21:05:792] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b91eab0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:21:05:792] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@f6688b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:21:05:792] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@45f1ccbd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:21:05:792] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@465d161b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:21:05:792] [WARN] - com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:184) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@326db00a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[15:21:10:956] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208) - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[15:21:15:119] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:208) - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[15:21:23:060] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/1
+[15:21:23:060] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:21:23:061] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findById
+[15:21:23:061] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: 1
+[15:21:23:061] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:21:27:836] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/1
+[15:21:27:837] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:21:27:837] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findById
+[15:21:27:837] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: 1
+[15:21:27:837] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:21:43:810] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[15:21:43:810] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:21:43:810] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[15:21:43:810] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[15:21:43:811] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:27:09:043] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[15:27:09:058] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[15:27:17:213] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 22152 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[15:27:17:222] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[15:27:17:940] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[15:27:17:950] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[15:27:17:951] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:27:17:951] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[15:27:18:040] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:27:18:041] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 782 ms
+[15:27:18:387] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[15:27:18:493] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[15:27:18:506] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[15:27:18:514] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.81 seconds (JVM running for 3.263)
+[15:27:27:312] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:27:27:313] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:27:27:314] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[15:27:27:341] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/1
+[15:27:27:342] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:27:27:342] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findById
+[15:27:27:342] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: 1
+[15:27:27:343] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:27:27:357] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[15:27:27:462] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[15:27:53:171] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/2
+[15:27:53:172] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:27:53:173] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findById
+[15:27:53:175] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: 2
+[15:27:53:176] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:29:06:680] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/2
+[15:29:06:681] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:29:06:681] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findById
+[15:29:06:681] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: 2
+[15:29:06:682] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:29:58:917] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[15:29:58:924] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[15:30:05:959] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 26192 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[15:30:05:966] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[15:30:06:615] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[15:30:06:626] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[15:30:06:626] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:30:06:627] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[15:30:06:714] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:30:06:715] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 713 ms
+[15:30:07:047] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[15:30:07:158] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[15:30:07:172] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[15:30:07:179] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.763 seconds (JVM running for 3.394)
+[15:30:38:505] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:30:38:505] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:30:38:506] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[15:30:38:540] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[15:30:38:643] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[15:31:40:409] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[15:31:40:419] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[15:31:59:878] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 15404 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[15:31:59:888] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[15:32:00:641] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[15:32:00:650] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[15:32:00:651] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:32:00:651] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[15:32:00:737] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:32:00:737] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 805 ms
+[15:32:01:087] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[15:32:01:200] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[15:32:01:213] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[15:32:01:221] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.95 seconds (JVM running for 3.698)
+[15:33:08:499] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:33:08:499] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:33:08:500] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 1 ms
+[15:33:08:526] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/1
+[15:33:08:527] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:33:08:527] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findById
+[15:33:08:527] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: 1
+[15:33:08:527] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:33:08:543] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[15:33:08:662] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[15:33:24:742] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[15:33:24:751] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[15:33:33:895] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting Demo1Application using Java 1.8.0_422 on DESKTOP-N7EF6Q5 with PID 13952 (D:\JAVAfiles\demo1\target\classes started by acaca in D:\JAVAfiles\demo1)
+[15:33:33:902] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:631) - No active profile set, falling back to 1 default profile: "default"
+[15:33:34:641] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 8080 (http)
+[15:33:34:654] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[15:33:34:655] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:33:34:655] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.69]
+[15:33:34:744] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:33:34:744] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:292) - Root WebApplicationContext: initialization completed in 807 ms
+[15:33:35:099] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:53) - Adding welcome page: class path resource [static/index.html]
+[15:33:35:215] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[15:33:35:228] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 8080 (http) with context path ''
+[15:33:35:236] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started Demo1Application in 1.889 seconds (JVM running for 3.463)
+[15:35:02:868] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[15:35:02:868] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[15:35:02:868] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[15:35:13:644] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/
+[15:35:13:644] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:35:13:644] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findAll
+[15:35:13:644] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: {}
+[15:35:13:644] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:35:13:675] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[15:35:13:832] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[15:35:40:193] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:42) - url: /users/1
+[15:35:40:194] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:43) - class: class com.example.demo.controller.UserController
+[15:35:40:194] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:44) - method: findById
+[15:35:40:194] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:45) - args: 1
+[15:35:40:194] [INFO] - com.example.demo.aop.ControllerLogAspect.recordControllerLog(ControllerLogAspect.java:46) - access method: GET
+[15:35:50:719] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[15:35:50:730] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.

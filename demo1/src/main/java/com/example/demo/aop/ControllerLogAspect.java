@@ -22,7 +22,7 @@ public class ControllerLogAspect {
 
 //    @Around(value = "execution(* com.example.demo..controller..*.*(..))")
 @Around("execution(* com.example.demo.controller.UserController.*(..))")
-public void recordControllerLog(ProceedingJoinPoint pjp) throws Throwable {
+public Object recordControllerLog(ProceedingJoinPoint pjp) throws Throwable {
 
         System.out.println("----------------ASPECT START--------------");
         ServletRequestAttributes sra = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
@@ -46,9 +46,11 @@ public void recordControllerLog(ProceedingJoinPoint pjp) throws Throwable {
         LOGGER.info("access method: {}", accessMethod);
         // LOGGER.info("user delete id: {}", id);
 
-        pjp.proceed();
+        Object rtn = pjp.proceed();
 
         System.out.println("----------------ASPECT FINISH--------------");
+
+        return rtn;
 }
 
 }

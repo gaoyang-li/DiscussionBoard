@@ -5,6 +5,7 @@ import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 @RestController
@@ -12,7 +13,7 @@ import java.util.List;
 public class UserController {
     @Autowired
     private UserService userService;
-
+    
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<User> findAll(){
         return userService.findAll();
